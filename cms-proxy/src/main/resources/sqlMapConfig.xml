@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<mappers>
+		<mapper resource="com/andromeda/cms/model/Article-MyBatis.xml" />
+		<mapper resource="com/andromeda/cms/model/Category-MyBatis.xml" />
+		<mapper resource="com/andromeda/cms/model/SubCategory-MyBatis.xml" />
+		<mapper resource="com/andromeda/cms/model/Cartoon-MyBatis.xml" />
+		<mapper resource="com/andromeda/cms/model/Horoscope-MyBatis.xml" />
+		
+		<mapper resource="com/andromeda/cms/sitemap/model/SitemapDate-MyBatis.xml" />
+		<mapper resource="com/andromeda/cms/sitemap/model/SitemapLocation-MyBatis.xml" />
+		
+		<mapper resource="com/andromeda/cms/commons/model/CommonQueries-MyBatis.xml" />
+
+	</mappers>
+</configuration>
